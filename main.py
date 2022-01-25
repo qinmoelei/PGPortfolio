@@ -40,7 +40,7 @@ def build_parser():
     parser.add_argument("--folder", dest="folder", type=int,
                         help="folder(int) to load the config, neglect this option if loading from ./pgportfolio/net_config")
     return parser
-
+# above is just a process so that the parameters which have been gathered could be passed easily and could be viewed easily
 
 def main():
     parser = build_parser()
